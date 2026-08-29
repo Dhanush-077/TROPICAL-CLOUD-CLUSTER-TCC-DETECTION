@@ -195,4 +195,10 @@ with gr.Blocks(title="ISRO TCC Detection Web Interface") as demo:
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 7860))
     print(f"[INFO] Launching Gradio Web Server on port {port}...", flush=True)
-    demo.launch(server_name="0.0.0.0", server_port=port, share=False)
+    demo.queue().launch(
+        server_name="0.0.0.0",
+        server_port=port,
+        share=False,
+        show_error=True,
+        quiet=False
+    )
