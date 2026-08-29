@@ -11,7 +11,7 @@ __pycache__/
 *$py.class
 .pytest_cache/
 
-# Large legacy model files
+# Large legacy model files (but allow .keras format)
 *.h5
 
 # Jupyter & IDE
