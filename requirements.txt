@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+opencv-python-headless
+scipy
+scikit-learn
+tensorflow-cpu
+keras
+gradio
